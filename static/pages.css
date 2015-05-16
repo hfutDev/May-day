@@ -1,0 +1,104 @@
+/*与index.css重复部分*/
+*{
+	padding: 0;
+	margin: 0 auto;
+	font-family: "Microsoft YaHei";
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+a:hover{
+	color: #373352;
+	text-decoration: underline;
+}
+
+body{
+	background-color:#eee;
+	background-image: url("background.jpg");
+}
+
+#head{
+	background-image: url("headbg.jpg");
+	background-position: 50%;
+	background-repeat: no-repeat;
+	background-color: #ffe037;
+	height: 395px;
+	width: auto;
+}
+
+	/*页脚*/
+#footer{
+	text-align: center;
+	line-height: 2.5;
+	padding: 30px 0 50px 0;
+}
+
+/****************************************/
+
+/*主体部分*/
+.page{
+	width: 993px;
+	background-color: white;
+	border-radius: 12px;
+	box-shadow: 2px 1px 10px 3px #ccc;
+	margin-top: 18px;
+}
+
+#title{
+	overflow: hidden;
+}
+
+.tithead{
+	padding: 20px 30px;
+}
+
+.tithead span{
+	display: inline-block;
+	text-align: center;
+}
+
+.home{
+	width: 90px;
+}
+
+.tit{
+	width: 880px;
+}
+
+.selected{
+	text-decoration: underline;
+}
+
+.arrow{
+	width: 16px;
+	height: 16px;
+	background-image: url("arrow.png");
+	background-repeat: no-repeat;
+	vertical-align: middle;
+}
+
+.list{
+	float: left;
+	margin: 16px 120px;
+	line-height: 2;
+}
+
+.text{
+	padding: 40px 30px;
+	line-height: 2;
+}
+
+#content img{
+	display: block;
+	margin: 10px auto;
+}
+
+/****************************************/
+
+
+/*页脚*/
+#footer a{
+	margin:0 30px;
+}

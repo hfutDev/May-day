@@ -1,0 +1,421 @@
+/*base*/
+*{
+	margin: 0 auto;
+	padding: 0;
+	font-family: "Microsoft YaHei";
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+a:hover{
+	color: #373352;
+}
+
+body{
+	background-color:#eee;
+	background-image: url("background.jpg");
+}
+
+#head{
+	background-image: url("headbg.jpg");
+	background-position: 50%;
+	background-repeat: no-repeat;
+	background-color: #ffe037;
+	height: 395px;
+	width: auto;
+}
+
+#main{
+	width: 990px;
+}
+/****************************************/
+
+
+/*关于劳动节*/
+#about{
+	width: 870px;
+	height: 290px;
+	background-color: white;
+	box-shadow: 20px 20px 10px #ccc;
+	margin-top: -20px;
+	padding: 53px 40px;
+	background-image: url("border1.png");
+	background-repeat: no-repeat;
+	background-position: 20px 36px;
+}
+
+.guanyu{
+	font-size: 46px;
+	font-weight: bold;
+	letter-spacing: 8px;
+}
+
+.laodong{
+  font-size: 22px;
+  font-weight: bold;
+  letter-spacing: 18px;
+  margin-bottom: 30px;
+}
+
+.bigwords{
+	font-size: 16px;
+	line-height: 1.8;
+}
+/****************************************/
+
+
+/*具体内容*/
+#content{
+	padding-top: 20px;
+}
+
+.list{
+	width: 910px;
+	height: 498px;
+	padding:20px 40px;
+	margin-top: 16px;
+	background-color: white;
+	border-radius: 12px;
+	box-shadow: 3px 3px 10px #ccc;
+}
+
+.title {
+	height: 44px;
+	font-size: 33px;
+	background-repeat: no-repeat;
+	background-position: 0 10px;
+	border-bottom: 1px solid #ffe03d;
+	font-weight: bold;
+}
+
+.more{
+	float: right;
+	font-size: 16px;
+	margin-top: 20px;
+}
+
+.more:hover{
+	color: #a0a0a0;
+}
+
+
+/*异国风俗*/
+.yiguo{
+	background-image: url("border2.png");
+	padding: 3px 0 3px 20px;
+}
+
+.ygtext {
+	width: 408px;
+	height: 340px;
+	padding-top: 40px;
+	line-height: 1.8;
+	float: right;
+}
+
+.ygtitle {
+	font-size: 18px;
+	font-weight: bold;
+}
+/**************/
+
+/*轮播图*/
+#rollcontainer {
+	padding-top: 40px;
+	width: 450px;
+	height:360px;
+	position: relative;
+	overflow: hidden;
+	float: left;
+}
+
+#rolllist {
+	width: 2718px;
+	height:360px;
+	position: absolute;
+  	left: -453px;
+}
+
+#rolllist img{
+	float: left;
+}
+
+.rollborder {
+  width: 453px;
+  height: 317px;
+  background-image: url("picborder.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 0;
+  cursor: pointer;
+}
+
+#rollbuttons {
+	list-style: none;
+	position: absolute;
+	top: 370px;
+	left: 152px;
+}
+
+#rollbuttons span{
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	margin: 0 8px;
+	background-image: url("dotyellow.png");
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+
+#rollbuttons .current{
+	background-image: url("dotblue.png");
+	background-repeat: no-repeat;
+}
+
+.arrow { 
+	cursor: pointer; 
+	display: none; 
+	line-height: 2; 
+	text-align: center; 
+	font-size: 22px; 
+	font-weight: bold; 
+	width: 40px; 
+	height: 40px;  
+	position: absolute; 
+	top: 180px; 
+	background-color: RGBA(0,0,0,.3); 
+	color: #fff;
+}
+.arrow:hover { 
+	background-color: RGBA(0,0,0,.7);
+}
+#rollcontainer:hover .arrow { 
+	display: block;
+}
+#prev { 
+	left: 30px;
+}
+#next { 
+	right: 30px;
+}
+
+/****************************************/
+
+
+/*劳动模范是一面镜子*/
+.laomo{
+	background-image: url("border3.png");
+	padding: 3px 0 3px 28px;
+}
+
+.zan{
+	width: 300px;
+	height: 186px;
+	margin-top: 20px;
+	float: left;
+	position: relative;
+}
+
+.zanborder{
+	width: 273px;
+	height: 142px;
+	padding: 5px;
+	border: 1px solid #adacac;
+	margin-top: 30px;
+	overflow: hidden;
+}
+
+.zancontent {
+	width: 261px;
+	height: 125px;
+	padding: 12px 6px 5px;
+	background-color:#eee;
+}
+
+.zantit{
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.zancont{
+	font-size: 12px;
+}
+
+.zanicon{
+	width: 34px;
+	height: 34px;
+	background-image: url("zan.png");
+	position: absolute;
+	left: 22px;
+	top: 11px;
+	font-size: 18px;
+	text-align: center;
+	line-height: 2;
+}
+/****************************************/
+
+
+/*欢乐活动*/
+.huanle{
+	background-image: url("border4.png");
+	padding: 3px 0 3px 22px;
+}
+
+.hlbg {
+	width: 869px;
+	height: 304px;
+	margin-top: 58px;
+	background-image: url("huanleborder.png");
+	background-repeat: no-repeat;
+	padding: 22px 0 0 40px;
+}
+
+.dis {
+	position: absolute;
+	background: #000;
+	filter: alpha(opacity=50);
+	-moz-opacity: 0.5;
+	-khtml-opacity: 0.5;
+	background: RGBA(0, 0, 0, 0.8);
+	font-size: 12px;
+	line-height: 2;
+	color: white;
+	padding: 3px 5px;
+}
+
+.col1 {
+	width: 204px;
+	height: 281px;
+	background-image: url("col1.jpg");
+	background-repeat: no-repeat;
+	float: left;
+	margin-right: 21px;
+	position: relative;
+}
+
+.col1dis {
+	width: 194px;
+	height: 69px;
+	top: 206px;
+}
+
+.col2 {
+	width: 234px;
+	background-repeat: no-repeat;
+	float: left;
+	margin-right: 21px;
+	position: relative;
+}
+
+.col2top {
+	height: 132px;
+	background-image: url("col2top.jpg");
+}
+
+.col2dis {
+	width: 67px;
+	height: 126px;
+	left: 158px;
+}
+
+.col2botm {
+	height: 141px;
+	background-image: url("col2botm.jpg");
+	margin-top: 8px;
+}
+
+.col3 {
+	width: 351px;
+	height: 281px;
+	background-image: url("col3.jpg");
+	background-repeat: no-repeat;
+	float: left;
+	position: relative;
+}
+
+.col3dis {
+	width: 341px;
+	height: 49px;
+	top: 226px;
+}
+/****************************************/
+
+
+/*劳动光荣是一种态度*/
+.taidu{
+	background-image: url("border5.png");
+	padding: 3px 0 3px 30px;
+}
+
+.tdtitle{
+	font-size: 18px;
+	line-height: 3;
+	color: #373352;
+}
+
+.tdabstr{
+	width: 40px;
+	height: 72px;
+	border-right: 1px dashed #000;
+	margin: 0;
+	font-size: 26px;
+	color: #a0a0a0;
+	display: inline-block;
+}
+
+.tdques {
+  width: 839px;
+  height: 72px;
+  display: inline-block;
+  line-height: 1.8;
+  margin-left: 20px;
+  font-size: 18px;
+}
+
+.tdglas {
+	width: 279px;
+	height: 195px;
+	background-image: url("glasses.jpg");
+	background-repeat: no-repeat;
+	float: right;
+	margin-top: 45px;
+}
+
+.tdlist {
+	width: 570px;
+	height: 62px;
+	margin: 5px 0 0;
+	background-image: url("tools.png");
+	background-repeat: no-repeat;
+	padding-left: 36px;
+}
+
+.tdlist a{
+	color: #373352;
+}
+
+.tdlist a:hover{
+	text-decoration: underline;
+}
+
+.tdtit{
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 2;
+}
+/****************************************/
+
+
+/*页脚*/
+#footer{
+	text-align: center;
+	line-height: 2.5;
+	padding: 30px 0 50px 0;
+}
+
+#footer a:hover{
+	text-decoration: underline;
+}
+
